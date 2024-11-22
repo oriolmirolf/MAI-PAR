@@ -1,0 +1,52 @@
+step    0: MOVE_DRONE L1 L2
+        1: PICKUP P1 L2
+        2: MOVE_DRONE L2 L3
+        3: PICKUP P2 L3
+        4: MOVE_DRONE L3 L4
+        5: PICKUP P3 L4
+        6: MOVE_DRONE L4 L5
+        7: MOVE_DRONE L5 L6
+        8: MOVE_DRONE L6 L7
+        9: MOVE_DRONE L7 L8
+       10: MOVE_DRONE L8 L9
+       11: MOVE_DRONE L9 L10
+       12: DROP P1 L10
+       13: DROP P2 L10
+       14: DROP P3 L10
+       15: MOVE_DRONE L10 L9
+       16: PICKUP P8 L9
+       17: MOVE_DRONE L9 L8
+       18: PICKUP P7 L8
+       19: MOVE_DRONE L8 L7
+       20: PICKUP P6 L7
+       21: MOVE_DRONE L7 L8
+       22: MOVE_DRONE L8 L9
+       23: MOVE_DRONE L9 L10
+       24: DROP P6 L10
+       25: DROP P7 L10
+       26: DROP P8 L10
+       27: MOVE_DRONE L10 L9
+       28: MOVE_DRONE L9 L8
+       29: MOVE_DRONE L8 L7
+       30: MOVE_DRONE L7 L6
+       31: PICKUP P5 L6
+       32: MOVE_DRONE L6 L5
+       33: PICKUP P4 L5
+       34: MOVE_DRONE L5 L6
+       35: MOVE_DRONE L6 L7
+       36: MOVE_DRONE L7 L8
+       37: MOVE_DRONE L8 L9
+       38: MOVE_DRONE L9 L10
+       39: DROP P4 L10
+       40: EMPTY_SAFE_ZONE
+       41: DROP P5 L10
+     
+
+time spent:    0.00 seconds instantiating 81 easy, 18 hard action templates
+               0.00 seconds reachability analysis, yielding 34 facts and 35 actions
+               0.00 seconds creating final representation with 34 relevant facts, 4 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 74 states, to a max depth of 0
+               0.00 seconds total time
+

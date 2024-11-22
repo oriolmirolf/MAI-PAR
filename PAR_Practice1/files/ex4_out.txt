@@ -1,0 +1,11 @@
+
+ff: parsing domain file
+domain 'RESCUE_DRONE' defined
+ ... done.
+ff: parsing problem file
+problem 'EX4' defined
+ ... done.
+
+
+ff: goal can be simplified to FALSE. No plan will solve it
+

@@ -1,0 +1,65 @@
+
+ff: parsing domain file
+domain 'RESCUE_DRONE' defined
+ ... done.
+ff: parsing problem file
+problem 'EX1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+advancing to distance:   14
+                         12
+                         11
+                         10
+                          9
+                          8
+                          7
+                          6
+                          5
+                          4
+                          3
+                          2
+                          1
+                          0
+
+ff: found legal plan as follows
+
+step    0: MOVE_DRONE L1 L2
+        1: MOVE_DRONE L2 L3
+        2: MOVE_DRONE L3 L4
+        3: PICKUP P1 L4
+        4: MOVE_DRONE L4 L3
+        5: MOVE_DRONE L3 L2
+        6: MOVE_DRONE L2 L6
+        7: MOVE_DRONE L6 L10
+        8: MOVE_DRONE L10 L14
+        9: DROP P1 L14
+       10: MOVE_DRONE L14 L10
+       11: PICKUP P3 L10
+       12: MOVE_DRONE L10 L14
+       13: DROP P3 L14
+       14: MOVE_DRONE L14 L10
+       15: MOVE_DRONE L10 L6
+       16: MOVE_DRONE L6 L5
+       17: PICKUP P2 L5
+       18: MOVE_DRONE L5 L6
+       19: MOVE_DRONE L6 L10
+       20: MOVE_DRONE L10 L14
+       21: DROP P2 L14
+     
+
+time spent:    0.00 seconds instantiating 49 easy, 38 hard action templates
+               0.00 seconds reachability analysis, yielding 24 facts and 37 actions
+               0.00 seconds creating final representation with 24 relevant facts, 2 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 53 states, to a max depth of 0
+               0.00 seconds total time
+
