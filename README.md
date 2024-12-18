@@ -4,8 +4,8 @@ This repository contains the work completed for the course **Planning and Approx
 
 ## Teammates
 The following teammates collaborated on all practical exercises:
-- **(Víctor Carballo)[https://github.com/Vicara12]**  
-- **(Julia Amenós)[https://github.com/juliia-ad]**
+- **[Víctor Carballo](https://github.com/Vicara12)**  
+- **[Julia Amenós](https://github.com/juliia-a)**
 
 ## Marks
 - **Practice 1: 100/100**  
