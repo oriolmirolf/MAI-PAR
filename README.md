@@ -10,7 +10,7 @@ The following teammates collaborated on all practical exercises:
 ## Marks
 - **Practice 1: 100/100**  
 - **Practice 2: 97/100**  
-- **Practice 3: TBD**
+- **Practice 3: 100/100**
 
 ## Practicals
 
